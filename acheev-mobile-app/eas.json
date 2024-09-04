@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "version": ">= 0.34.0"
+  },
+  "build": {
+    "production": {
+      "node": "18.18.0"
+    },
+    "preview": {
+      "extends": "production",
+      "distribution": "internal"
+    },
+    "development": {
+      "extends": "production",
+      "developmentClient": "true",
+      "distribution": "internal"
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "track": "internal"
+      },
+      "ios": {
+      
+      }
+    }
+  }
+}

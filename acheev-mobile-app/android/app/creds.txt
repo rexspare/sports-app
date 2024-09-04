@@ -1,0 +1,4 @@
+key store = acheev-release-key.keystore
+key store password = TJpVXt6c9MsryjQA
+key alias = acheev-key-alias
+key alias password = TJpVXt6c9MsryjQA
